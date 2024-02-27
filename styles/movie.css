@@ -1,0 +1,44 @@
+.back-to-main {
+    margin-top: 60px;
+    margin-bottom: 124px;
+}
+
+.main__link {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.section_page {
+    margin-bottom: 100px;
+}
+
+.movie__row_page {
+    margin-bottom: 75px;
+    gap: 90px;
+}
+
+.movie__img_page {
+    width: 300px;
+    height: 372px;
+}
+
+.movie__title_page {
+    margin-bottom: 35px;
+    font-size: 50px;
+}
+
+.low-margin {
+    margin-bottom: 20px;
+}
+
+.movie-span__info {
+    color: #0094FF;
+}
+
+.movie__description {
+    padding-left: 95px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
