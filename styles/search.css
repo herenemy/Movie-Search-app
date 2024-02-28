@@ -76,6 +76,10 @@
     font-weight: 700;
 }
 
+.movie__info_page {
+    font-size: 30px;
+}
+
 .movie__year {
     margin-bottom: 15px;
     font-size: 25px;
