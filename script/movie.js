@@ -10,7 +10,7 @@ function getMovieInfoById() {
   const params = new URLSearchParams(location.search);
   const id = params.get('id');
 
-  fetch(`http://www.omdbapi.com/?i=${id}&apikey=12f4eda4&`)
+  fetch(`https://www.omdbapi.com/?i=${id}&apikey=12f4eda4&`)
     .then(res => res.json())
     .then(movieInfo => {
       console.log(movieInfo);
