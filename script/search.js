@@ -31,7 +31,7 @@ function getMovieNameFromUser() {
 function getMovieInfoFromServer(movie) {
   let movieCardHTML = '';
 
-  fetch(`http://www.omdbapi.com/?id=1&apikey=12f4eda4&t=${movie}`, {
+  fetch(`https://www.omdbapi.com/?id=1&apikey=12f4eda4&t=${movie}`, {
     method: 'POST',
   })
     .then(responce => {
