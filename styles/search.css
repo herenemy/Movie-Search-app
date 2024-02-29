@@ -95,3 +95,11 @@
     font-size: 40px;
     font-weight: 700;
 }
+
+.movie__not-found__wrapper {
+    display: none;
+}
+
+.movie__not-found__wrapper_active {
+    display: block;
+}

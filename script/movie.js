@@ -3,7 +3,6 @@
 const movieInfoPageContainerNode =
   document.getElementById('moviePageContainer');
 
-console.log(movieInfoPageContainerNode);
 getMovieInfoById();
 
 function getMovieInfoById() {
@@ -13,8 +12,6 @@ function getMovieInfoById() {
   fetch(`https://www.omdbapi.com/?i=${id}&apikey=12f4eda4&`)
     .then(res => res.json())
     .then(movieInfo => {
-      console.log(movieInfo);
-
       let movieFullInfoHTML = `
       <div class="movie__row movie__row_page">
       <div class="movie__col">
@@ -37,6 +34,6 @@ function getMovieInfoById() {
       <div class="movie__description">${movieInfo.Plot}</div> 
       
       `;
-      movieInfoPageContainerNode.innerHTML += movieFullInfoHTML;
+      movieInfoPageContainerNode.innerHTML = movieFullInfoHTML;
     });
 }
